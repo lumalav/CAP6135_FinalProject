@@ -9,7 +9,7 @@ This repository contains a sample Spring Boot web application vulnerable to [CVE
 * Log4j 2.14.1
 * JDK 1.8.0_181
 
-## Prerequisites:
+## Prerequisites
 
 * Docker
 
