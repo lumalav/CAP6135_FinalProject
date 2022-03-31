@@ -58,7 +58,7 @@ This will bring the same html message that is rendered in the browser
   <h1 style="color: #5e9ca0;">Log4Shell</h1><h4>Vulnerability - Exploitation and Mitigation</h4><p>API Version: 1.0</p>
 ```
 
-At this point the vulnerable app, logged all the headers using the vulnerable version of log4j and triggered the ldap server in the exploitation tool which executed the given command at start up
+At this point the vulnerable app, logged all the headers using the vulnerable version of log4j and triggered the ldap server that is running under the exploitation tool which ultimately executed the given command.
 
 ## Confirmation
 
