@@ -44,7 +44,7 @@ After executing the previous line, the tool will give us the endpoint that the v
 
 ## Exploitation
 
-To breach the app we just need to call it and introduce the malicious ldap server endpoint as an [HTTP Header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+Now, we just need to call the app and introduce the malicious ldap server endpoint as an [HTTP Header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
 
 ```bash
 #Notice that we are including the endpoint given by the exploitation tool. 
