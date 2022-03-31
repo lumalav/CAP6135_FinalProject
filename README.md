@@ -30,8 +30,6 @@ To breach the vulnerable app, we used the great exploitation tool created by @we
 
 *Note: Latest release can be found [here](https://github.com/welk1n/JNDI-Injection-Exploit/releases/download/v1.0/JNDI-Injection-Exploit-1.0-SNAPSHOT-all.jar)*
 
-## Setting up the exploit
-
 We run the exploitation tool and set it up with a 'malicious' command
 
 ```bash
