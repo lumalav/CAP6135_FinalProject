@@ -28,7 +28,7 @@ To test the application is up and running, go to a browser and enter the local i
 
 To breach the vulnerable app, we used the great exploitation tool created by @welk1n to test vulnerabities [JNDI-Injection-Exploit](https://github.com/welk1n/JNDI-Injection-Exploit)
 
-*Note: Latest release can be found [here](https://github.com/welk1n/JNDI-Injection-Exploit/releases/download/v1.0/JNDI-Injection-Exploit-1.0-SNAPSHOT-all.jar)*
+*Note: Latest release can be found [here](https://github.com/welk1n/JNDI-Injection-Exploit/releases/download/v1.0/JNDI-Injection-Exploit-1.0-SNAPSHOT-all.jar) or [here](https://github.com/lumalav/CAP6135_FinalProject/blob/main/jndi-exploit/JNDI-Injection-Exploit-1.0-SNAPSHOT-all.jar)* 
 
 We run the exploitation tool and set it up with a 'malicious' command
 
