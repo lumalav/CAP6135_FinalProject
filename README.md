@@ -68,5 +68,7 @@ hacked
 ## References
 
 https://www.lunasec.io/docs/blog/log4j-zero-day/
+
 https://github.com/welk1n/JNDI-Injection-Exploit
+
 https://github.com/christophetd/log4shell-vulnerable-app
