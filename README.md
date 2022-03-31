@@ -20,7 +20,7 @@ $ docker build . -t vulnerable
 $ docker run -p 9090:8080 --name vulnerable --rm vulnerable
 ```
 
-To test that the application is up and running, go to a browser and enter the local ip and the port chosen:
+To test the application is up and running, go to a browser and enter the local ip and the port chosen:
 
 ![](./sc_1.png)
 
