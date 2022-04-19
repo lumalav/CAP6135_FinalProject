@@ -15,12 +15,11 @@ public class MainController {
 
     private static final Logger logger = LogManager.getLogger(MainController.class.getName());
 	
-	@GetMapping("/")
+    @GetMapping("/")
     public String index(@RequestHeader(required=false) Map<String, String> headers) {
-	    if (headers != null) {
-			logger.info("All headers: {}", headers);
-	    }
-		
-	    return "<h1 style=\"color: #5e9ca0;\">Log4Shell</h1><h4>Vulnerability - Exploitation and Mitigation</h4><p>API Version: 1.0</p>";
+        if (headers != null) {
+	    logger.info("All headers: {}", headers);
+	}
+	return "<h1 style=\"color: #5e9ca0;\">Log4Shell</h1><h4>Vulnerability - Exploitation and Mitigation</h4><p>API Version: 1.0</p>";
     }
 }
